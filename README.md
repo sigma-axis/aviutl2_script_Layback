@@ -4,6 +4,8 @@
 
 [ダウンロードはこちら．](https://github.com/sigma-axis/aviutl2_script_Layback/releases)
 
+<img width="580" height="180" alt="フレームの最背面にテキストオブジェクトを置く例" src="https://github.com/user-attachments/assets/369b88f6-bfbe-447e-89a6-24d37b836a6c" />
+
 ##  動作要件
 
 - AviUtl ExEdit2
@@ -65,7 +67,7 @@
 
 ## 改版履歴
 
-- **v1.00 (for beta13)** (2025-09-??)
+- **v1.00 (for beta13)** (2025-09-29)
 
   - 初版．
 
