@@ -25,6 +25,13 @@
 初期状態だと「フィルタ効果を追加」メニューの「配置」に追加されています．
 - 「オブジェクト追加メニューの設定」の「ラベル」項目で分類を変更できます．
 
+### For non-Japanese speaking users
+
+You may be able to find language translation file for this script from [this repository](https://github.com/sigma-axis/aviutl2_translations_sigma-axis). 
+Translation files enable names and parameters of the scripts / filters to be displayed in other languages.
+
+Although, usage documentations for this script in languages other than Japanese are not available now.
+
 ##  使い方
 
 下のレイヤーにあるけどフレームの最背面に置きたいオブジェクトに，「最背面に配置」のフィルタ効果を追加してください．
