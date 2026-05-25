@@ -1,5 +1,6 @@
 --information:最背面に配置 v1.01 (for beta47) by σ軸
 --label:配置
+--require:2001802
 --[[pixelshader@identity:
 Texture2D src : register(t0);
 float4 identity(float4 pos : SV_Position) : SV_Target
