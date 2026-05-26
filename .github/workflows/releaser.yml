@@ -6,6 +6,7 @@ on:
 
 env:
   REPOSITORY_NAME: Layback
+  SUBFOLDER_NAME: sigma-axis.Layback
 
   TIME_ZONE: Asia/Tokyo
   # Time zone for the timestamp when releasing.
@@ -33,10 +34,10 @@ jobs:
 
     - name: Pack and compress
       run: |
-        mkdir -p pack/Script/${{ env.REPOSITORY_NAME }}
+        mkdir -p pack/Script/${{ env.SUBFOLDER_NAME }}
         cp *.anm2 pack/Script
-        cp *.md pack/Script/${{ env.REPOSITORY_NAME }}
-        cp LICENSE pack/Script/${{ env.REPOSITORY_NAME }}/LICENSE
+        cp *.md pack/Script/${{ env.SUBFOLDER_NAME }}
+        cp LICENSE pack/Script/${{ env.SUBFOLDER_NAME }}/LICENSE
         cp assets/package.txt pack
         cp assets/package.ini pack
         cd pack
