@@ -64,14 +64,13 @@ Although, usage documentations for this script in languages other than Japanese 
 
     内部的にはこれらのカスタムオブジェクトは，直接フレームバッファに描画したり，スクリプトで引数なしの `obj.effect()` を呼んでいます．
 
-## 次の改版予定
+## 改版履歴
 
-- **v1.01 (for beta47)** (2026-??-??)
+- **v1.01 (for beta47)** (2026-05-27)
 
   - 1 つのオブジェクトに対して複数回かけても正常に動作するように変更．
+  - 配布形式を `.au2pkg.zip` に変更．
   - `beta47` での動作確認．
-
-## 改版履歴
 
 - **v1.00 (for beta13)** (2025-09-29)
 
