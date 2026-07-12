@@ -12,7 +12,7 @@
 
   http://spring-fragrance.mints.ne.jp/aviutl
 
-  - `beta47` で動作確認済み．
+  - `2.1.0` で動作確認済み．
 
 ## 導入方法
 
@@ -65,6 +65,11 @@ Although, usage documentations for this script in languages other than Japanese 
     内部的にはこれらのカスタムオブジェクトは，直接フレームバッファに描画したり，スクリプトで引数なしの `obj.effect()` を呼んでいます．
 
 ## 改版履歴
+
+- **v1.10** (2026-07-12)
+
+  - カメラ制御判定の仕様変更に対応．
+  - `2.1.0` での動作確認．
 
 - **v1.01 (for beta47)** (2026-05-27)
 

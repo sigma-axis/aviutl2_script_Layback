@@ -1,6 +1,6 @@
---information:最背面に配置 v1.01 (for beta47) by σ軸
+--information:最背面に配置 v1.10 by σ軸
 --label:配置
---require:2001802
+--require:2010000
 --[[pixelshader@identity:
 Texture2D src : register(t0);
 float4 identity(float4 pos : SV_Position) : SV_Target
@@ -11,7 +11,7 @@ float4 identity(float4 pos : SV_Position) : SV_Target
 local obj = obj;
 
 -- cannot handle under camera controls.
-if obj.getoption("camera_mode") then return end
+if obj.getoption("camera_mode") ~= 0 then return end
 
 -- backup framebuffer and apply the subsequent filters.
 local cache_name = "cache:layback/frm#"..obj.effect_id;
